@@ -8,7 +8,7 @@ function Content() {
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(getMyList());
-  }, []);
+  }, [dispatch]);
 
   return (
     <div className="content-container">
