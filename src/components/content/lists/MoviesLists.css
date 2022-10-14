@@ -1,0 +1,22 @@
+.movies-lists-container {
+  margin-left: 50px;
+  transform: translateY(-35%);
+  position: relative;
+}
+
+.list-title {
+  margin-bottom: -20px;
+}
+.list-content {
+  display: flex;
+  white-space: nowrap;
+  overflow: auto;
+}
+.list-content::-webkit-scrollbar {
+  display: none;
+}
+@media (max-width: 500px) {
+  .movies-lists-container {
+    margin-left: 20px;
+  }
+}
