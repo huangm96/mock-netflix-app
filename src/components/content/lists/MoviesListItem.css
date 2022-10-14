@@ -25,7 +25,10 @@
 .list-item-layer.hover-effect:hover .list-item-title {
   z-index: 10;
 }
-
+.list-item-img-container {
+  width: 100px;
+  height: 142px;
+}
 .list-item-img {
   width: 100px;
   height: 142px;

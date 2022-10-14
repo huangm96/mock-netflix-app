@@ -12,7 +12,10 @@ function MoviesListItem({ data, buttonName, buttonFunc }) {
           isBrowser ? "list-item-layer hover-effect" : "list-item-layer"
         }
       >
-        <img className="list-item-img" src={data.img} alt={data.title} />
+        <div className="list-item-img-container">
+          <img className="list-item-img" src={data.img} alt={data.title} />
+        </div>
+
         <div className="list-item-info">
           <p className="list-item-title">{data.title}</p>
           <div
